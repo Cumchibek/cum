@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+.wrapper {
+	margin:0px auto;
+	width: 50%;
+}
+body {
+	background-color: rgb(48, 109, 48);
+}
+.container {
+	display: flex;
+	border:1px solid black;
+	padding: 5px;
+	background-color: black;
+	color:#fff;
+}
+nav {
+	display: flex;
+	width: 40%;
+}
+nav a {
+	color: #fff;
+	background-color: aqua;
+	text-decoration: none;
+	border:1px solid black;
+	padding: 20px;
+	font:20px Times New Roman;
+	transition: 1s;
+}
+nav a:hover , a.active {
+	background-color: aquamarine;
+	color:black;
+}
+p {
+	text-align: left;
+	font:20px Times New Roman;
+}
+.right {
+	width: 400px;
+	margin-right:20px;
+	padding: 20px;
+}
+.left {
+	width: 400px;
+	margin-right:20px;
+	padding: 20px;
+}
